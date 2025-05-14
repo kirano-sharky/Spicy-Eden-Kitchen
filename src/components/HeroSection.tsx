@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="container relative z-10 section-padding">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto pt-20 pb-16">
           <div className="animate-bounce-light mb-4">
-            <Flame className="h-12 w-12 text-spicy-red" />
+            <img src='https://i.postimg.cc/dQrwjWqr/craiyon-124111-image-1.png' className='size-20'/>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent spicy-gradient mb-6 drop-shadow-sm">

@@ -6,7 +6,7 @@ import { MapPin, Mail, PhoneCall } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="section-padding bg-white">
+    <section id="contact" className="section-padding bg-white ">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
@@ -15,8 +15,9 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div className="bg-slate-50 p-8 rounded-lg">
+<div className="">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto align-middle">
+          <div className="bg-slate-50 p-8 rounded-lg w-full ">
             <h3 className="text-xl font-bold mb-6">Contact Information</h3>
             
             <div className="space-y-4">
@@ -24,8 +25,7 @@ const ContactSection = () => {
                 <MapPin className="h-5 w-5 text-spicy-red shrink-0 mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Address</p>
-                  <p className="text-muted-foreground">123 Spice Avenue, Flavor District</p>
-                  <p className="text-muted-foreground">ChiliTown, CP 12345</p>
+                  <p className="text-muted-foreground">Multimedia University, Jalan Ayer Keroh Lama, 75450 Bukit Beruang, Melaka, Malaysia</p>
                 </div>
               </div>
               
@@ -33,7 +33,7 @@ const ContactSection = () => {
                 <Mail className="h-5 w-5 text-spicy-red shrink-0 mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">info@chiliheat.com</p>
+                  <p className="text-muted-foreground">kirano.osas@gmail.com</p>
                 </div>
               </div>
               
@@ -49,8 +49,7 @@ const ContactSection = () => {
             <div className="mt-8 p-4 bg-spicy-yellow/30 rounded-lg">
               <p className="text-sm font-medium">Business Hours</p>
               <p className="text-sm text-muted-foreground">Monday - Friday: 9AM - 6PM</p>
-              <p className="text-sm text-muted-foreground">Saturday: 10AM - 4PM</p>
-              <p className="text-sm text-muted-foreground">Sunday: Closed</p>
+              <p className="text-sm text-muted-foreground">Saturday & Sunday: Closed</p>
             </div>
           </div>
           
@@ -96,6 +95,7 @@ const ContactSection = () => {
             </form>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

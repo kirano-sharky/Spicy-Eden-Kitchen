@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-md border-b">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Flame className="h-6 w-6 text-spicy-red" />
+          <img src='https://i.postimg.cc/dQrwjWqr/craiyon-124111-image-1.png' className='size-7'/>
           <span className="font-bold text-xl">Spicy Eden Kitchen</span>
         </div>
         

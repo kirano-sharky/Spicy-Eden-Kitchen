@@ -14,8 +14,8 @@ const featuredItems = [
   },
   {
     id: 2,
-    name: "Habanero Tacos",
-    image: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?q=80&w=2000",
+    name: "One-pot Spicy Rice",
+    image: "https://bing.com/th?id=OSK.54ca27d8520a7182eb29158f003c1519",
     description: "Authentic street tacos with habanero salsa and pickled jalapeños.",
     price: "$10.99",
     heatLevel: "Medium",
